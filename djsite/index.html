@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Начало | DJ Praseto.eu</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/logos/dj.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./assets/img/logos/dj.ico" type="image/x-icon">
+  <link rel="icon" sizes="100x100" href="./assets/img/logos/dj.ico">
+  <link rel="icon" sizes="16x16" href="./assets/img/logos/dj.ico">
+  <link rel="icon" sizes="32x32" href="./assets/img/logos/dj.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <a href="index.html"><img class="logo" src="./assets/img/logos/dj.png" alt="logo"></a>
+        <ul class="links">
+          <li><a href="index.html"><i class="fa-solid fa-house"></i> Начало</a></li>
+          <li><a href="aboutme.html"><i class="fa-solid fa-user-large"></i> За мен</a></li>
+          <li>
+            <a href="services.html" class="desktop-link"><i class="fa-solid fa-calendar-check"></i> Услуги</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features"><i class="fa-solid fa-calendar-check"></i> Услуги</label>
+            <ul>
+              <li><a href="services.html"><i class="fa-solid fa-calendar-check"></i> Всички Услуги</a></li>
+              <hr class="4arta">
+              <li><a href="smallevents.html"><i class="fa-solid fa-magnifying-glass-minus"></i> Малки Събития</a></li>
+              <li><a href="bigevents.html"><i class="fa-solid fa-magnifying-glass-plus"></i> Големи Събития</a></li>
+              <li><a href="onlineevents.html"><i class="fa-solid fa-satellite-dish"></i> Онлайн Събития</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link"><i class="fa-regular fa-newspaper"></i> Блог</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services"><i class="fa-regular fa-newspaper"></i> Блог</label>
+            <ul>
+              <li><a href="#"><i class="fa-solid fa-bullhorn"></i> Новини</a></li>
+              <li><a href="#"><i class="fa-solid fa-calendar-days"></i> Календар</a></li>
+              <li><a href="#"><i class="fa-solid fa-compact-disc"></i> Музикални издания</a></li>
+              <li><a href="#"><i class="fa-solid fa-images"></i> Галерия</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa-solid fa-handshake"></i> Партньори</a></li>
+          <li><a href="contacts.html"><i class="fa-solid fa-address-book"></i> Контакти</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+
+  <!-- header -->
+  <div class="background">
+    <h1 class="uss1">DJ Praseto</h1>
+    <p class="uss2">DJ-ят на народа</p>
+  </div>
+  <section class="seperator-wrapper">
+    <div class="seperator gradient">
+    </div>
+  </section>
+  <!-- Main -->
+  <div class="mainpart">
+    <h3 class="somezaglavie">Добре дошли в официалният уебсайт на DJ Praseto</h3>
+    <h5 class="hui">Тук може да намерите DJ услуги на народни цени за всеки повод и събитие, било то концерт, участие,
+      сватба, рожден ден или нещо друго</h5>
+  </div>
+  <!-- cards -->
+  <br>
+  <p class="precard">Тук можете да изберете някоя от главните категории</p>
+  <!-- karti -->
+  <div class="playboycarti">
+    <!-- card 1 -->
+    <div class="card">
+      <div class="card2">
+        <h4 class="cardtext">Услуги</h4>
+        <button onclick="btn1()" class="button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+          <div class="text">Отиди</div>
+        </button>
+      </div>
+    </div>
+    <!-- card2 -->
+    <div class="card">
+      <div class="card2">
+        <h4 class="cardtext">Календар</h4>
+        <button onclick="btn2()" class="button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+          <div class="text">Отиди</div>
+        </button>
+      </div>
+    </div>
+    <!-- card 3 -->
+    <div class="card">
+      <div class="card2">
+        <h4 class="cardtext">За мен</h4>
+        <button onclick="btn3()" class="button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+          <div class="text">Отиди</div>
+        </button>
+      </div>
+    </div>
+    <!-- card 4 -->
+    <div class="card">
+      <div class="card2">
+        <h4 class="cardtext">Контакти</h4>
+        <button onclick="btn4()" class="button">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+          <div class="text">Отиди</div>
+        </button>
+      </div>
+    </div>
+  </div> 
+      <!-- banner -->
+      <br><br>
+      <img src="./assets/img/pages/djbg.png" alt="banner" class="banner">
+  <!-- FOOTER -->
+  <br><br>
+  <section class="seperator-wrapper">
+    <div class="seperator gradient">
+    </div>
+  </section>
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="fa-solid fa-headphones-simple"></i>
+          <span class="logo_name">DJ Praseto</span>
+        </div>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/djpraseto"><i class="fa fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/zhelyazkov_050407/"><i class="fa fa-instagram"></i></a>
+          <a href="https://soundcloud.com/praseto-1948"><i class="fa fa-soundcloud"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://twitter.com/djpraseto"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name"><i class="fa-solid fa-info"></i> Информация</li>
+          <li><a href="index.html"><i class="fa-solid fa-house"></i> Начало</a></li>
+          <li><a href="contacts.html"><i class="fa-solid fa-address-book"></i> Контакти</a></li>
+          <li><a href="aboutme.html"><i class="fa-solid fa-user-large"></i> За мен</a></li>
+          <li><a href="#"><i class="fa-solid fa-handshake"></i> Партньори</a></li>
+          <li><a href="https://www.olx.bg/d/ad/profesionalen-dj-po-svatbi-rozhdeni-dni-i-drugi-sabitiya-dj-praseto-CID555-ID9c25d.html"><i class="fa-solid fa-rectangle-ad"></i> OLX обява за малки събития</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name"><i class="fa-solid fa-calendar-check"></i> Услуги</li>
+          <li><a href="smallevents.html"><i class="fa-solid fa-magnifying-glass-minus"></i> Малки събития</a></li>
+          <li><a href="bigevents.html"><i class="fa-solid fa-magnifying-glass-plus"></i> Големи събития</a></li>
+          <li><a href="onlineevents.html"><i class="fa-solid fa-satellite-dish"></i> Online събития</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name"><i class="fa-regular fa-newspaper"></i> Блог</li>
+          <li><a href="#"><i class="fa-solid fa-bullhorn"></i> Новини</a></li>
+          <li><a href="#"><i class="fa-solid fa-calendar-days"></i> Календар</a></li>
+          <li><a href="#"><i class="fa-solid fa-compact-disc"></i> Музикални издания</a></li>
+          <li><a href="#"><i class="fa-solid fa-images"></i> Галерия</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright &copy; <span id="year"></span><a href="#"> DJ Praseto</a>All rights
+          reserved</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://kit.fontawesome.com/bed8830a00.js" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('year').appendChild(document.createTextNode(new Date().getFullYear()))
+  </script>
+  <script src="./assets/js/script.js"></script>
+    <!-- Прилепен навбар -->
+    <script>
+      window.onscroll = function () {myFunction()};
+  
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+  
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+    <!-- firebase script -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBefZ4dTxm_GcXd9DpxpnZpwdydU3G6uaU",
+        authDomain: "dj-praseto.firebaseapp.com",
+        projectId: "dj-praseto",
+        storageBucket: "dj-praseto.appspot.com",
+        messagingSenderId: "1075948017563",
+        appId: "1:1075948017563:web:215cf416daa0dc1379333e",
+        measurementId: "G-B2TZDLS9X2"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+</body>
+
+</html>
